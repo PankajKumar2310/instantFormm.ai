@@ -9,7 +9,7 @@ function PricingPage() {
     <div className='grid grid-cols-3 gap-20'>
      {
         [1,2,3].map((item:number,index:number)=>(
-                <Card className="w-full max-w-sm">
+                <Card key={index} className="w-full max-w-sm">
                   <CardHeader>
                     <CardTitle>Login to your account</CardTitle>
                     <CardDescription>

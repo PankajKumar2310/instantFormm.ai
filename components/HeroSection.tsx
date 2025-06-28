@@ -41,7 +41,7 @@ function HeroSection() {
           <div className='grid grid-cols-4 gap-3'>
           {
             suggestionBtnText.map((item:SuggestionText,index:number) =>(
-                <Button variant={"outline"} className='rounded-full h-10'>{item.label}</Button>
+                <Button key={index} variant={"outline"} className='rounded-full h-10'>{item.label}</Button>
             ))
           }
            </div>

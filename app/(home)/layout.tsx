@@ -11,8 +11,10 @@ function layout({children}:{children : React.ReactNode}) {
       <Logo/>
       <div>
         <Button className='mt-0'   variant={"link"}>Dashbaord</Button>
-        <UserButton />
-      </div>
+        
+        <UserButton/>   
+        
+           </div>
     </nav>
     </div>
     {children}
